@@ -1,0 +1,383 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcoShop</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800;900&family=Alfa+Slab+One&display=swap" rel="stylesheet">
+  
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <div class="page-container">
+
+    <!-- Wrapper for Hero and Header on Homepage -->
+    <div class="home-hero-wrapper">
+        <!-- Header -->
+        <header class="header header--home">
+        <div class="header__logo">ECOSHOP</div>
+        <nav class="header__nav">
+            <a href="#" class="header__nav-link active">Home</a>
+            <a href="produtos.html" class="header__nav-link">Produtos</a>
+            <a href="contatos.html" class="header__nav-link">Contatos</a>
+        </nav>
+        <div class="header__icons">
+            <img src="https://img.icons8.com/ios-glyphs/30/336F21/shopping-cart.png" alt="Ícone do carrinho" class="header__icon"/>
+            <img src="https://img.icons8.com/ios-glyphs/30/336F21/user.png" alt="Ícone de perfil" class="header__icon"/>
+        </div>
+        </header>
+
+        <!-- Hero Section -->
+        <main class="hero">
+        <div class="hero__content">
+            <div class="hero__text-block">
+            <h1 class="hero__title">
+                Escolhas que transformam. Produtos que <span class="hero__title--highlight">respeitam.</span>
+            </h1>
+            <div class="hero__stats">
+                <div class="stat">
+                <p class="stat__number">50+</p>
+                <p class="stat__label">Produtos</p>
+                </div>
+                <div class="stat__divider"></div>
+                <div class="stat">
+                <p class="stat__number">1.500+</p>
+                <p class="stat__label">Clientes Satisfeitos</p>
+                </div>
+            </div>
+            </div>
+            <div class="hero__search">
+            <input type="text" placeholder="Pesquisar" class="hero__search-input">
+            <button class="hero__search-button" aria-label="Pesquisar">
+                <img src="https://img.icons8.com/ios-glyphs/20/1E1E1E/search--v1.png" alt="Ícone de pesquisa"/>
+            </button>
+            </div>
+        </div>
+        <div class="hero__image-container">
+            <div class="hero__image-bg"></div>
+            <img src="images/bela_natureza_morta_com_fitoterapia_1_1748651008981_585.png" alt="Imagem de produtos naturais de fitoterapia" class="hero__image" />
+        </div>
+        </main>
+    </div>
+
+  <!-- Featured Products Section -->
+    <section class="featured-products">
+      <div class="featured-products__intro">
+          <h2 class="featured-products__title">Confira os nossos produtos</h2>
+          <p class="featured-products__subtitle">Produtos que cuidam de você, sem esquecer do planeta</p>
+          <a href="produtos.html" class="btn btn--primary">
+              Ver mais 
+              <img src="https://img.icons8.com/?size=100&id=2p6YI4XkGjyD&format=png&color=000000" alt="Seta para a direita" alt="Seta para a direita" />
+          </a>
+      </div>
+       <div class="product-carousel-wrapper">
+            <div class="product-carousel" id="product-carousel">
+                <div class="product-card">
+                    <img src="images/chatgpt_image_25_de_abr__de_2025__13_42_13_1_1748651008983_9.png" alt="Sabonete Natural de Lavanda" class="product-card__image"/>
+                    <div class="product-card__info">
+                        <h3 class="product-card__name">Sabonete Natural de Lavanda</h3>
+                        <p class="product-card__price">R$ 28,00</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="images/chatgpt_image_25_de_abr__de_2025__14_26_25_1_1748651008983_430.png" alt="Shampoo Sólido de Alecrim e Hortelã" class="product-card__image"/>
+                    <div class="product-card__info">
+                        <h3 class="product-card__name">Shampoo Sólido de Alecrim e Hortelã</h3>
+                        <p class="product-card__price">R$ 32,00</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="images/chatgpt_image_25_de_abr__de_2025__14_27_39_1_1748651008983_355.png" alt="Desodorante Vegano de Tea Tree" class="product-card__image"/>
+                    <div class="product-card__info">
+                        <h3 class="product-card__name">Desodorante Vegano de Tea Tree</h3>
+                        <p class="product-card__price">R$ 25,00</p>
+                    </div>
+                </div>
+                 <div class="product-card">
+                    <img src="images/chatgpt_image_25_de_abr__de_2025__14_35_13_1748652165331_801.png" alt="Esfoliante Corporal de Café" class="product-card__image"/>
+                    <div class="product-card__info">
+                        <h3 class="product-card__name">Esfoliante Corporal de Café</h3>
+                        <p class="product-card__price">R$ 38,00</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="images/chatgpt_image_25_de_abr__de_2025__15_23_23_1748652165332_893.png" alt="Vela Aromática de Lavanda" class="product-card__image"/>
+                    <div class="product-card__info">
+                        <h3 class="product-card__name">Vela Aromática de Lavanda</h3>
+                        <p class="product-card__price">R$ 40,00</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="images/chatgpt_image_25_de_abr__de_2025__15_20_34_1748652165332_206.png" alt="Óleo Corporal de Jasmim" class="product-card__image"/>
+                    <div class="product-card__info">
+                        <h3 class="product-card__name">Óleo Corporal de Jasmim</h3>
+                        <p class="product-card__price">R$ 55,00</p>
+                    </div>
+                </div>
+            </div>
+            <button class="slider-arrow product-arrow--prev" id="prev-product" aria-label="Produto anterior">‹</button>
+            <button class="slider-arrow product-arrow--next" id="next-product" aria-label="Próximo produto">›</button>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about-us" id="about-us">
+        <h2 class="section-title">Sobre Nós</h2>
+        <p class="section-subtitle">Somos uma marca que acredita em escolhas simples, naturais e conscientes. A EcoShop nasceu pra mostrar que dá, sim, pra cuidar de você e do planeta ao mesmo tempo.</p>
+        <div class="about-us__features">
+          <div class="feature-item">
+            <div class="feature-item__icon-wrapper"><img src="https://img.icons8.com/?size=100&id=79OjgooI933G&format=png&color=000000" alt="Ícone de Cruelty Free"/></div>
+            <h3 class="feature-item__title">Cruelty Free</h3>
+            <p class="feature-item__description">Sem testes. Sem crueldade. Só amor. 100% Vegano</p>
+          </div>
+          <div class="feature-item">
+            <div class="feature-item__icon-wrapper"><img src="https://img.icons8.com/ios-glyphs/60/1E1E1E/free-shipping.png" alt="Ícone de Frete Grátis"/></div>
+            <h3 class="feature-item__title">Frete Grátis</h3>
+            <p class="feature-item__description">EcoShop entrega em todo o Brasil com frete grátis. Leveza até na entrega.</p>
+          </div>
+          <div class="feature-item">
+            <div class="feature-item__icon-wrapper"><img src="https://img.icons8.com/ios-glyphs/60/1E1E1E/headset.png" alt="Ícone de Suporte"/></div>
+            <h3 class="feature-item__title">Suporte Ágil</h3>
+            <p class="feature-item__description">Precisa de ajuda? Nosso time tá só um clique de distância.</p>
+          </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories">
+        <h2 class="section-title">Categorias</h2>
+        <p class="section-subtitle">Descubra seu próximo queridinho do momento!</p>
+        <div class="categories__content-bg">
+            <div class="categories__grid">
+                <div class="category-card">
+                    <img src="images/autocuidado1.png" alt="Kit Autocuidado Diário" class="category-card__image"/>
+                    <h3 class="category-card__title">Kit Autocuidado Diário</h3>
+                </div>
+                <div class="category-card category-card--main">
+                    <img src="images/kitbasico.png" alt="kit básico Ecoshop" class="category-card__image"/>
+                    <h3 class="category-card__title">kit básico Ecoshop</h3>
+                    <p class="category-card__subtitle">Para peles de todos os tipos</p>
+                    <button class="btn btn--secondary">
+                      Conheça Mais 
+                      <img src="https://img.icons8.com/?size=100&id=2p6YI4XkGjyD&format=png&color=000000" alt="Seta para a direita"/>
+                    </button>
+                </div>
+                <div class="category-card">
+                    <img src="images/kitrelaxamento" alt="Kit Relaxamento e Bem-Estar" class="category-card__image"/>
+                    <h3 class="category-card__title">Kit Relaxamento e Bem-Estar</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   </section>
+ <!-- Sessão -->
+    <section class="testimonials-section">
+      <h2 class="section-title">O que estão falando sobre a EcoShop?</h2>
+
+      <div class="testimonials-slider-container">
+          <button class="slider-arrow slider-arrow--prev" aria-label="Depoimento anterior">
+              <span class="material-icons">chevron_left</span>
+          </button>
+
+          <div class="testimonials-slider-wrapper">
+              <div class="testimonials-slider" id="testimonial-slider">
+                  <div class="testimonial-card">
+                      <blockquote>
+                          "Gostei muito do atendimento via WhatsApp, me ajudaram a escolher uma opção vegana para o meu tipo de pele. Recomendo demais!"
+                      </blockquote>
+                      <cite>
+                          Carlos T
+                          <span>Minas Gerais</span>
+                      </cite>
+                  </div>
+                  <div class="testimonial-card">
+                      <blockquote>
+                          "Comprei o kit de autocuidado e fiquei impressionada com a qualidade. Sem contar que a embalagem é linda e sustentável. Uma marca que realmente pratica o que prega."
+                      </blockquote>
+                      <cite>
+                          Renata L
+                          <span>Curitiba</span>
+                      </cite>
+                  </div>
+                  <div class="testimonial-card">
+                      <blockquote>
+                          "Os produtos são incríveis! Minha pele nunca esteve tão boa. A entrega foi super rápida e o atendimento é excelente. Virei cliente fiel!"
+                      </blockquote>
+                      <cite>
+                          Ana P
+                          <span>São Paulo</span>
+                      </cite>
+                  </div>
+              </div>
+          </div>
+
+          <button class="slider-arrow slider-arrow--next" aria-label="Próximo depoimento">
+              <span class="material-icons">chevron_right</span>
+          </button>
+      </div>
+
+      <div class="testimonials-slider-nav" id="slider-dots">
+          </div>
+    </section>
+    
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer__content">
+            <div class="footer__brand">
+                <h3 class="footer__logo">ECOSHOP</h3>
+                <p>O melhor para você e o planeta.</p>
+                <div class="footer__socials">
+                    <a href="https://api.whatsapp.com/send?phone=5561991946952&text=BEM%20VINDO%20A%20ECOSHOP!" target="_blank" aria-label="WhatsApp"><img src="https://img.icons8.com/color/48/25D366/whatsapp--v1.png" alt="WhatsApp"></a>
+                    <a href="https://www.instagram.com/ecoshop.br/" target="_blank" aria-label="Instagram"><img src="https://img.icons8.com/fluency/48/instagram-new.png" alt="Instagram"></a>
+                    <a href="https://www.tiktok.com/@ecoshop.br" target="_blank" aria-label="TikTok"><img src="https://img.icons8.com/ios-filled/50/tiktok.png" alt="TikTok"></a>
+                </div>
+            </div>
+            <nav class="footer__links">
+                <div class="footer__links-column">
+                    <h4>Informações</h4>
+                    <a href="#about-us">Sobre Nós</a>
+                    <a href="produtos.html">Produtos</a>
+                    <a href="#">Blog</a>
+                </div>
+                <div class="footer__links-column">
+                    <h4>Contato</h4>
+                    <a href="contatos.html">Suporte</a>
+                    <a href="politica_privacidade.html">Política de Trocas e Devoluções</a>
+                </div>
+            </nav>
+        </div>
+        <div class="footer__copyright">
+            <p>© 2025, EcoShop</p>
+        </div>
+    </footer>
+    
+    <a href="https://api.whatsapp.com/send?phone=5561991946952&text=BEM%20VINDO%20A%20ECOSHOP!" target="_blank" class="whatsapp-fab" aria-label="Fale conosco no WhatsApp">
+        <img src="https://img.icons8.com/color/55/ffffff/whatsapp--v1.png" alt="Ícone do WhatsApp"/>
+    </a>
+
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Testimonial Slider
+        const testimonialSlider = document.getElementById('testimonial-slider');
+        if (testimonialSlider) {
+            const slider = document.querySelector('.testimonials-slider');
+            const prevArrow = document.querySelector('.testimonials-slider-container .slider-arrow--prev');
+            const nextArrow = document.querySelector('.testimonials-slider-container .slider-arrow--next');
+            const navDotsContainer = document.getElementById('slider-dots');
+            const testimonialCards = document.querySelectorAll('.testimonial-card');
+
+            let currentIndex = 0;
+            const totalCards = testimonialCards.length;
+
+            // Function to update the slider position
+            function updateSlider() {
+                // Get the computed style of the first card to include margin/gap
+                const cardStyle = window.getComputedStyle(testimonialCards[0]);
+                const cardWidth = testimonialCards[0].offsetWidth;
+                
+                // Get the gap from the parent flex container
+                const sliderStyle = window.getComputedStyle(slider);
+                const sliderGap = parseFloat(sliderStyle.gap); 
+
+                // The total distance to move is the width of one card plus its gap
+                const moveDistance = currentIndex * (cardWidth + sliderGap); 
+                slider.style.transform = `translateX(-${moveDistance}px)`;
+                updateDots();
+            }
+
+            // Function to create and update navigation dots
+            function createDots() {
+                navDotsContainer.innerHTML = ''; // Clear existing dots
+                for (let i = 0; i < totalCards; i++) {
+                    const dot = document.createElement('span');
+                    dot.classList.add('dot');
+                    if (i === currentIndex) {
+                        dot.classList.add('active');
+                    }
+                    dot.addEventListener('click', () => {
+                        currentIndex = i;
+                        updateSlider();
+                    });
+                    navDotsContainer.appendChild(dot);
+                }
+            }
+
+            // Function to update active dot
+            function updateDots() {
+                const dots = document.querySelectorAll('.testimonials-slider-nav .dot');
+                dots.forEach((dot, index) => {
+                    if (index === currentIndex) {
+                        dot.classList.add('active');
+                    } else {
+                        dot.classList.remove('active');
+                    }
+                });
+            }
+
+            // Event listener for previous arrow
+            prevArrow.addEventListener('click', () => {
+                currentIndex = (currentIndex > 0) ? currentIndex - 1 : totalCards - 1;
+                updateSlider();
+            });
+
+            // Event listener for next arrow
+            nextArrow.addEventListener('click', () => {
+                currentIndex = (currentIndex < totalCards - 1) ? currentIndex + 1 : 0;
+                updateSlider();
+            });
+
+            // Handle responsiveness: Recalculate slider position on window resize
+            window.addEventListener('resize', () => {
+                // Delay update to ensure layout has settled after resize
+                clearTimeout(window.resizeTimeout);
+                window.resizeTimeout = setTimeout(updateSlider, 100); 
+            });
+
+            // Initialize the slider and dots
+            createDots();
+            updateSlider(); // Initial positioning
+        }
+
+        // Product Carousel
+        const productCarousel = document.getElementById('product-carousel');
+        if(productCarousel) {
+            const productSlides = productCarousel.querySelectorAll('.product-card');
+            const prevProductButton = document.getElementById('prev-product');
+            const nextProductButton = document.getElementById('next-product');
+            let currentProductIndex = 0;
+            
+            const itemsPerPage = 3;
+            const totalProductSlides = Math.ceil(productSlides.length / itemsPerPage);
+
+            function updateProductCarousel() {
+                const carouselWrapper = productCarousel.parentElement;
+                const productSlideWidth = productSlides[0].offsetWidth;
+                const gap = parseInt(window.getComputedStyle(productCarousel).gap);
+                const moveDistance = currentProductIndex * (itemsPerPage * (productSlideWidth + gap));
+                productCarousel.style.transform = `translateX(-${moveDistance}px)`;
+            }
+
+            nextProductButton.addEventListener('click', () => {
+                currentProductIndex = (currentProductIndex + 1) % totalProductSlides;
+                updateProductCarousel();
+            });
+
+            prevProductButton.addEventListener('click', () => {
+                currentProductIndex = (currentProductIndex - 1 + totalProductSlides) % totalProductSlides;
+                updateProductCarousel();
+            });
+
+            window.addEventListener('resize', updateProductCarousel);
+        }
+    });
+  </script>
+
+</body>
+</html>
